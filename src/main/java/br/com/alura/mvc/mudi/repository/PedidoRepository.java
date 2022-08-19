@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
 import br.com.alura.mvc.mudi.model.Pedido;
 
 @Repository
-public class PedidoRepository {
+public interface PedidoRepository {
 	
 	@PersistenceContext
 	private EntityManager entityManager;
